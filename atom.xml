@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Lenny&#39;s Blog</title>
-  <icon>http://yoursite.com/icon.png</icon>
+  <icon>https://lenny233.github.io/icon.png</icon>
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2020-02-21T02:17:03.561Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="https://lenny233.github.io/"/>
+  <updated>2020-02-22T06:29:29.985Z</updated>
+  <id>https://lenny233.github.io/</id>
   
   <author>
     <name>lenny</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>CodeQL 若干问题思考及 CVE-2019-3560 审计详解</title>
-    <link href="http://yoursite.com/2020/02/20/codql-and-cve-2019-3560/"/>
-    <id>http://yoursite.com/2020/02/20/codql-and-cve-2019-3560/</id>
+    <link href="https://lenny233.github.io/2020/02/20/codql-and-cve-2019-3560/"/>
+    <id>https://lenny233.github.io/2020/02/20/codql-and-cve-2019-3560/</id>
     <published>2020-02-20T09:10:46.000Z</published>
-    <updated>2020-02-21T02:17:03.561Z</updated>
+    <updated>2020-02-22T06:29:29.985Z</updated>
     
     <summary type="html">
     
