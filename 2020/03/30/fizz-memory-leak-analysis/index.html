@@ -34,7 +34,7 @@
 <meta property="og:image" content="https://lenny233.github.io/images/blog_pic/2020-03-30_4.png">
 <meta property="og:image" content="https://lenny233.github.io/images/blog_pic/2020-03-30_5.png">
 <meta property="article:published_time" content="2020-03-30T06:36:59.000Z">
-<meta property="article:modified_time" content="2020-03-30T07:58:15.470Z">
+<meta property="article:modified_time" content="2020-03-30T13:08:39.498Z">
 <meta property="article:author" content="lenny">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://lenny233.github.io/images/blog_pic/2020-03-30_1.png">
@@ -177,7 +177,7 @@
               <span class="post-meta-item-text">Posted on</span>
               
 
-              <time title="Created: 2020-03-30 14:36:59 / Modified: 15:58:15" itemprop="dateCreated datePublished" datetime="2020-03-30T14:36:59+08:00">2020-03-30</time>
+              <time title="Created: 2020-03-30 14:36:59 / Modified: 21:08:39" itemprop="dateCreated datePublished" datetime="2020-03-30T14:36:59+08:00">2020-03-30</time>
             </span>
 
           
@@ -228,7 +228,7 @@
 <p>Record protocol: Uses the parameters established by the handshake protocol to protect traffic between the communicating peers. The record protocol divides traffic up into a series of records, each of which is independently protected using the traffic keys.</p>
 <p>In this section, I’ll show you what a normal <code>Client Finished</code> message looks like and how it is generated.</p>
 <h4 id="Client-Finished-message-in-handshake-layer"><a href="#Client-Finished-message-in-handshake-layer" class="headerlink" title="Client Finished message in handshake layer"></a>Client Finished message in handshake layer</h4><p>Here is an example of plaintext <code>Client Finished</code> message.</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">0x14 0x00 0x00 0x30</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; Handshake Header</span><br><span class="line">&#x2F;&#x2F; 0x14 - handshake message type 0x14 (finished)</span><br><span class="line">&#x2F;&#x2F; 0x00 0x00 0x30 - 0x30 (48) bytes of handshake finished data follow</span><br><span class="line"></span><br><span class="line">0x38 0x41 0x86 0x0a 0x64 0x5c 0x35 0x51 0x98 0x7b 0x01 0x3a</span><br><span class="line">0x93 0xf7 0xdd 0x5b 0x38 0x76 0xb7 0x7c 0x7b 0x13 0xea 0x7b 0x59 0xb0 0x4f 0x29</span><br><span class="line">0x3f 0x8f 0xd1 0x14 0xb7 0x5f 0x50 0x7b 0xe5 0xef 0x9a 0x5c 0xc0 0xf3 0x39 0x7d</span><br><span class="line">0x58 0x24 0xd0 0xa9</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; Verify Data</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">0x14 0x00 0x00 0x30</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; Handshake Header</span><br><span class="line">&#x2F;&#x2F; 0x14 - handshake message type 0x14 (finished)</span><br><span class="line">&#x2F;&#x2F; 0x00 0x00 0x30 - 0x30 (48) bytes of handshake finished data follow</span><br><span class="line"></span><br><span class="line">0x38 0x41 0x86 0x0a 0x64 0x5c 0x35 0x51 0x98 0x7b 0x01 0x3a 0x93 0xf7 0xdd 0x5b</span><br><span class="line">0x38 0x76 0xb7 0x7c 0x7b 0x13 0xea 0x7b 0x59 0xb0 0x4f 0x29 0x3f 0x8f 0xd1 0x14</span><br><span class="line">0xb7 0x5f 0x50 0x7b 0xe5 0xef 0x9a 0x5c 0xc0 0xf3 0x39 0x7d 0x58 0x24 0xd0 0xa9</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; Verify Data</span><br></pre></td></tr></table></figure>
 
 <p>The structure of it can be divided into two parts.</p>
 <p>It starts with four bytes of <code>Handshake Header</code>. Each handshake message starts with a type and a length. The rest of the message is <code>verify_data</code> which is computed as follows:</p>
