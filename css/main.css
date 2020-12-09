@@ -2370,3 +2370,7 @@ hr {
 .sub-menu .menu-item {
   display: inline-block;
 }
+:root {
+  --text-color: #222;
+  --link-color: #222;
+}

@@ -39,7 +39,7 @@
     <updated>2020-02-20T09:10:46.000Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;CodeQL 是一个白盒源代码审计工具，去年在这一领域掀起了一些波澜。其开发公司 Semmle 也成功和 Github 联姻，成立了 Github Security Lab，负责 Github 上开源软件的代码安全审计。同时还推出了面向社区和企业的源代码分析服务平台 LGTM，一派生机勃勃的景象。不过国内安全社区对 CodeQL 似乎还没有足够的讨论，网上零星有几篇文章也主要是安装配置和简单上手体验。&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;1-背景&quot;&gt;&lt;a href=&quot;#1-背景&quot; class=&quot;headerlink&quot; title=&quot;1. 背景&quot;&gt;&lt;/a&gt;1. 背景&lt;/h2&gt;&lt;p&gt;CodeQL 是一个白盒源代码审计工具，去年在这一领域掀起了一些波澜。其开发公司 Semmle 也成功和 Github 联姻，成立了 Github Security Lab，负责 Github 上开源软件的代码安全审计。同时还推出了面向社区和企业的源代码分析服务平台 LGTM，一派生机勃勃的景象。不过国内安全社区对 CodeQL 似乎还没有足够的讨论，网上零星有几篇文章也主要是安装配置和简单上手体验。&lt;/p&gt;
 &lt;p&gt;那么，CodeQL 有哪些核心能力？安全从业者能怎样运用它？它能给企业带来更大的价值吗？等等。这些都是我初见 CodeQL 时产生的疑问。在这篇文章中，我将从实际落地应用的角度出发，通过对一个漏洞实例的具体审计分析思路溯源来展示白盒审计中的一些关键问题，进而谈谈我对于 CodeQL 若干问题的个人看法。&lt;/p&gt;</summary>
     
     
