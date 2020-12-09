@@ -18,8 +18,8 @@
   
   <entry>
     <title>Facebook Fizz memory leak vulnerability (CVE-2019-11924) reproduce and analysis</title>
-    <link href="https://lennysec.github.io/2020/03/30/fizz-memory-leak-analysis/"/>
-    <id>https://lennysec.github.io/2020/03/30/fizz-memory-leak-analysis/</id>
+    <link href="https://lennysec.github.io/fizz-memory-leak-analysis/"/>
+    <id>https://lennysec.github.io/fizz-memory-leak-analysis/</id>
     <published>2020-03-30T06:36:59.000Z</published>
     <updated>2020-03-30T06:36:59.000Z</updated>
     
@@ -33,8 +33,8 @@
   
   <entry>
     <title>CodeQL 若干问题思考及 CVE-2019-3560 审计详解</title>
-    <link href="https://lennysec.github.io/2020/02/20/codql-and-cve-2019-3560/"/>
-    <id>https://lennysec.github.io/2020/02/20/codql-and-cve-2019-3560/</id>
+    <link href="https://lennysec.github.io/codql-and-cve-2019-3560/"/>
+    <id>https://lennysec.github.io/codql-and-cve-2019-3560/</id>
     <published>2020-02-20T09:10:46.000Z</published>
     <updated>2020-02-20T09:10:46.000Z</updated>
     

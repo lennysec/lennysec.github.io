@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://lennysec.github.io/2020/03/30/fizz-memory-leak-analysis/</loc>
+    <loc>https://lennysec.github.io/fizz-memory-leak-analysis/</loc>
     
     <lastmod>2020-03-30</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lennysec.github.io/2020/02/20/codql-and-cve-2019-3560/</loc>
+    <loc>https://lennysec.github.io/codql-and-cve-2019-3560/</loc>
     
     <lastmod>2020-02-20</lastmod>
     
