@@ -6,7 +6,7 @@
   <link href="https://lennysec.github.io/atom.xml" rel="self"/>
   
   <link href="https://lennysec.github.io/"/>
-  <updated>2020-03-30T06:36:59.000Z</updated>
+  <updated>2024-04-03T09:41:48.000Z</updated>
   <id>https://lennysec.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>xz/liblzma 后门恶意代码注入方式分析</title>
+    <link href="https://lennysec.github.io/xz-backdoor-code-injection-analysis/"/>
+    <id>https://lennysec.github.io/xz-backdoor-code-injection-analysis/</id>
+    <published>2024-04-03T09:41:48.000Z</published>
+    <updated>2024-04-03T09:41:48.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;xz 后门爆出来之后，各路分析文章已经很多了，不过还是有些细节没有讲得很清楚，偶然看到四哥提到：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“作为围观群众，我在等待分析方展示一下，Hook 是怎么安装上去的，就是说 .so 被加载后，怎么就 call 到那个 .o 里去了，我问的是第一次。换句话说，是不是与 IFUNC 相关，究竟怎么完成第一步 Hook？”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/KzIhfGwKygcKUrlN42dv-Q&quot;&gt;liblzma后门疑似国家级APT - 青衣十三楼飞花堂&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;正好我跟四哥有同样的疑问，而且没有文章讲到这个问题，所以就来简单分析一下这个点，留作笔记。&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Facebook Fizz memory leak vulnerability (CVE-2019-11924) reproduce and analysis</title>
